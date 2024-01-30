@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+html {
+    box-sizing: border-box;
+} 
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    width: 565px;
+    height: 327px;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 7px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(214, 213, 213);
+    margin: 10px;
+}
+
+.follower{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.follower img{
+    width: 4%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.follower p{
+    font-weight: 600;
+    color: black;
+    gap: 7px;
+}
+
+.follower p span{
+    color: rgb(99, 99, 99);
+    font-weight: 500;
+}
+
+.more button{
+    border: 1px solid white;
+    background-color: white;
+}
+
+.more img{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+main{
+    margin: 0 10px 10px 10px;
+}
+
+.intro{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 9px;
+}
+
+.user_profile{
+    width: 10%;
+}
+
+.user_profile img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.user_information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-grow: 1;
+}
+
+.user_information p{
+    font-size: 400;
+    font-weight: 600;
+    color: black;
+}
+
+.user_information p span{
+    color: rgb(99, 99, 99) ;
+    font-weight: 500;
+}
+
+.user_information h3{
+    color: rgb(99, 99, 99) ;
+    font-weight: 500;
+    font-size: 15px;
+}
+.editing_time{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.editing_time p{
+    color: rgb(99, 99, 99) ;
+    font-weight: 500;
+}
+
+.editing_time img{
+    width: 15%;
+    height: 100%;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.post h4{
+    margin-bottom: 25px;
+}
+
+.post p{
+    font-weight: 550;
+}
+
+.post span{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(99, 99, 99) ;
+}
+
+.post span:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.analytics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.impression{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.impression img{
+    border-radius: 50%;
+}
+
+.impression p{
+    margin-left: 5px;
+    color: rgb(99, 99, 99);
+}
+
+.comments{
+    color: rgb(99, 99, 99);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    padding: 10px 15px 15px 15px;
+    border-top: 1px solid rgb(214, 213, 213);
+}
+
+.actions{
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.actions:hover{
+    background-color: rgb(178, 177, 177);
+} 
+
+.actions span{
+    color: rgb(99, 99, 99);
+}
+
+.like img{
+    width: 60%;
+}
+
+.comment img{
+    width: 30%;
+}
+
+.repost img{
+    width: 30%;
+}
+
+.share img{
+    width: 40%;
+}
